@@ -1,0 +1,35 @@
+h1 {
+  color: blue;
+  font-size: 300%;
+  font-family: courier;
+}
+a:link    {
+  color:green;
+  background-color:transparent;
+  text-decoration:none;
+}
+a:visited {
+  color:pink;
+  background-color:transparent;
+  text-decoration:none
+}
+a:hover   {
+  color:red;
+  background-color:transparent;
+  text-decoration:underline
+}
+a:active  {
+  color:yellow;
+  background-color:transparent;
+  text-decoration:underline
+}
+
+.bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+
+.container-fluid {
+      padding-top: 3em;
+      padding-bottom: 3em;
+  }
