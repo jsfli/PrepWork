@@ -10,9 +10,9 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navbar -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -33,27 +33,55 @@
     </nav>
 
       <!--Mainpage-->
-      <div id="mainPage" class="container-fluid text-center">
-        <h1>Jeffrey Li</h1>
-        <p>Overthink Less. Don't Procrastinate. Just Code!</p>
+      <div class="container-fluid text-center" id="mainPage">
+        <h1>Welcome!</h1>
       </div>
 
       <!--AboutMe-->
-      <div id="aboutMe" class="container">
+      <div id="aboutMe" class="container-fluid">
         <h2>About Me</h2>
-         <p> I am Jeffrey from Hong Kong.</P>
-        <h3>Past and Present </h3>
-          <p>paragraph for past and present</p>
-        <h3>Future</h3>
-          <p>paragraph for future</p>
-      </div>
+            <div class="container-fluid">
+
+              <div class="row">
+                <div class="col-sm-4">
+                  <img class="img-circle" src="pictures/past.jpeg">
+                </div>
+                <div class="col-sm-8">
+                  <h3 class="page-header">The Past</h3>
+                  <p>paragraph about the past</p>
+                </div>
+              </div>
+
+               <div class="row">
+                 <div class="col-sm-4">
+                   <img class="img-circle" src="pictures/present.jpeg">
+                 </div>
+                 <div class="col-sm-8">
+                   <h3 class="page-header">The Present</h3>
+                   <p>paragraph about the present</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-4">
+                  <img class="img-circle" src="pictures/future.jpeg">
+                </div>
+                <div class="col-sm-8">
+                  <h3 class="page-header">The Future</h3>
+                  <p>paragraph about the future</p>
+               </div>
+             </div>
+           </div>
+         </div>
+
 
       <!--PhotoGallery-->
-      <div id="photoGallery" class="container">
+      <div id="photoGallery" class="container-fluid">
       <h2>Photo Gallery</h2>
      </div>
 
       <!-- Footer -->
+
       <footer id="footer" class="container-fluid text-center">
         <a href="#mainPage" title="To Top">
           <span class="glyphicon glyphicon-chevron-up"></span>

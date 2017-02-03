@@ -1,5 +1,5 @@
 
-a:link    {
+/*a:link    {
   color:green;
   background-color:transparent;
   text-decoration:none;
@@ -19,7 +19,7 @@ a:active  {
   background-color:transparent;
   text-decoration:underline
 }
-
+*/
 #footer {
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
@@ -30,7 +30,37 @@ a:active  {
   background-repeat:no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 20em;
   height: 50em;
-  opacity: 0.8;
+  opacity: 1;
+  color: #CE5A57;
+  text-align: center;
+  letter-spacing: 1px;
+}
+#mainPage>h1 {
+  font-size: 10em;
+}
+#mainPage>p {
+  font-size: 2em;
+}
 
+#aboutMe {
+  padding: 2em 5em;
+}
+
+#photoGallery {
+  padding: 2em 5em;
+}
+
+#aboutMe img{
+  width: 20em;
+  height: 10em;
+}
+
+.row{
+  padding: 2em 2em;
+}
+
+.row:hover{
+  background-color: #e3e3e3;
 }
