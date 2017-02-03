@@ -1,8 +1,4 @@
-h1 {
-  color: blue;
-  font-size: 300%;
-  font-family: courier;
-}
+
 a:link    {
   color:green;
   background-color:transparent;
@@ -24,17 +20,17 @@ a:active  {
   text-decoration:underline
 }
 
-.footer {
+#footer {
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
   }
 
-.container-fluid {
-      padding-top: 3em;
-      padding-bottom: 3em;
-  }
+#mainPage {
+  background-image: url("pictures/myPage.JPG");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50em;
+  opacity: 0.8;
 
-.jumbotron {
-     background-color: red;
-     color: white;
 }

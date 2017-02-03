@@ -11,23 +11,51 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-      <!-- Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#mainPage">Jeffrey Li</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#mainPage">Main Page</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#photoGallery">Photo Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-
-      <!--jumbotron-->
-      <div class="jumbotron text-center">
+      <!--Mainpage-->
+      <div id="mainPage" class="container-fluid text-center">
         <h1>Jeffrey Li</h1>
-        <p>Live Life. Do More. Don't Procrastinate!</p>
+        <p>Overthink Less. Don't Procrastinate. Just Code!</p>
       </div>
-      <!--container-fluid1-->
-      <div class="container-fluid">
-        <h2>Bio</h2>
 
+      <!--AboutMe-->
+      <div id="aboutMe" class="container">
+        <h2>About Me</h2>
+         <p> I am Jeffrey from Hong Kong.</P>
+        <h3>Past and Present </h3>
+          <p>paragraph for past and present</p>
+        <h3>Future</h3>
+          <p>paragraph for future</p>
       </div>
+
+      <!--PhotoGallery-->
+      <div id="photoGallery" class="container">
+      <h2>Photo Gallery</h2>
+     </div>
 
       <!-- Footer -->
-      <footer class="container-fluid footer text-center">
-        <a href="#myPage" title="To Top">
+      <footer id="footer" class="container-fluid text-center">
+        <a href="#mainPage" title="To Top">
           <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
         <p>Presented by Jeffrey Li @ 2017</p>
